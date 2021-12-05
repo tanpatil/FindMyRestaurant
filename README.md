@@ -16,6 +16,11 @@ We used a _latent factor collaborative filtering_ strategy to narrow down result
 After that, we used a TF-IDF vectorization to isolate most of the relevant words in the text input, we grouped the vectors by the submitted user and business ID into two matrices that we can multiply together to estimate the rating given by our user. We return the top five recommendations based on this rating and use the Google Places API to get the more detailed information that we display.
 Because we use LFCF, our yielded recommendations are built directly on the text of previous user reviews. For example, if we input the term “date night,” our algorithm compares the string directly to the vector of the most important words for each review. This means that our recommendation engine is not only effective on simple, direct queries like “chinese food” or “tacos,” it can also handle much vaguer terms like “date night” with high accuracy. This is illustrated when we search “date night.” The top two results are Fratelli’s Ristorante and Mai’s Restaurant, which are higher-end locations that are perfect for a date.
 
+![logo](https://user-images.githubusercontent.com/89934290/144749281-2fb1a53d-881a-45b7-b4bc-e3aa9e85c36a.png)
+
+![image](https://user-images.githubusercontent.com/89934290/144749287-2c4913ab-9367-4ea0-b788-fe903f59a81f.png)
+
+
 ## Challenges we ran into
 Working with that large 5GB JSON file dataset was something that none of us had experience with. The aggregate review dataset couldn’t be loaded directly by pandas or even displayed in VSCode. We had to use streams to facilitate I/O - reading the dataset one line at a time to get around this. Pre-processing our datasets was much slower than anticipated after this.
 Implementing the recommendation system was also a challenge. Once again, none of us had experience writing even simple ML recommenders, so writing the recommendation engine from scratch was difficult. We also had some trouble with the initial implementation of gradient descent to increase the effectiveness of our model. We knew conceptually that gradient descent was supposed to minimize the estimated and actual rating error, although we struggled with the algorithmic solution.
