@@ -35,6 +35,6 @@ Working with enormous datasets and processing them for our specific use cases\
 Use TF-IDF o build a recommender system.\
 
 ## What’s next for FindMyRestaurant
-Implement and use Gradient Descent to calculate and minimize error. \
-Expand our data sets past San Diego, and make this accessible nationwide and maybe even internationally. \
+Implement and use Gradient Descent to calculate and minimize error.\
+Expand our data sets past San Diego, and make this accessible nationwide and maybe even internationally.\
 We also intend to include local businesses and not just a limit to restaurants!\
