@@ -1,0 +1,7 @@
+__pycache__/
+# No downloaded files
+data/*.json
+data/*.gz
+*.pkl
+# Virtual Environment Files
+venv/
