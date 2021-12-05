@@ -1,7 +1,7 @@
 Created by Tanay Patil, Gaurab Das, Abijit for Kent Hack Enough 2021/
 
-Checkout our devpost submission[https://devpost.com/software/findmyrestaurant]\
-Take a look at our website-FindMyRestaurant[https://findmyrestaurantwastaken.tech]
+Checkout our [devpost submission](https://devpost.com/software/findmyrestaurant)\
+Take a look at our website-[FindMyRestaurant](https://findmyrestaurantwastaken.tech)
 
 ## Inspiration
 Currently, because of COVID-19, it is becoming increasingly difficult for many restaurants to stay afloat.\
