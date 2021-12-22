@@ -9,7 +9,7 @@ After the pandemic, local restaurants will still be recovering from the financia
 One of our friends’ parents run a small restaurant and have experienced the negative effect of COVID-19 on their business firsthand, leading us to have a personal connection to how local restaurant owners are being affected.
 
 ## What it does
-FindMyRestaurant is an immediate response to the pandemic and a foreshadow to the aftermath of this pandemic. Our web app is a restaurant recommender system that filters through user reviews to give you the best dining experience while supporting small businesses in Houston. We gather the user’s preferences and location information through a simple form, and our algorithm will output a series of relevant recommendations of what local restaurants to try!
+FindMyRestaurant is an immediate response to the pandemic and a foreshadow to the aftermath of this pandemic. Our web app is a restaurant recommender system that filters through user reviews to give you the best dining experience while supporting small businesses in San Diego. We gather the user’s preferences and location information through a simple form, and our algorithm will output a series of relevant recommendations of what local restaurants to try!
 
 ## How we built it
 We acquired large datasets containing reviews from Google Maps. Since the original datasets had a wide variety of information on businesses all over the United States, we pre-processed the data into a bucket of 2,000 reviews solely for San-Diego businesses.\

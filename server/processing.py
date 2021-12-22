@@ -46,9 +46,9 @@ def isRestaurant(categories):
       return True
   return False
 
-def isInSan Diego(location):
+def isInHouston(location):
   for line in location:
-    if('San Diego' in line):
+    if('Houston' in line):
       return True
   return False
 
@@ -66,7 +66,7 @@ def processPlaces(n):
   for l in g:
     place = ast.literal_eval(str(eval(l)))
     if(place['address'] != None and place['name'] != None):
-      if isInSan Diego(place['address']):
+      if isInHouston(place['address']):
         places.append(place['gPlusPlaceId'])
         obj = pd.json_normalize(place)
         if count == 0:
