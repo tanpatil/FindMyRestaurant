@@ -1,4 +1,4 @@
-Created by Tanay Patil, Gaurab Das, Abijit for Kent Hack Enough 2021/
+Created by Tanay Patil for Kent Hack Enough 2021
 
 Checkout our [devpost submission](https://devpost.com/software/findmyrestaurant)\
 Take a look at our website-[FindMyRestaurant](https://findmyrestaurantwastaken.tech)
